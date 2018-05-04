@@ -39,5 +39,6 @@ final class FreeGeoIpFactory extends AbstractFactory
 
         $resolver->setAllowedTypes('httplug_client', ['object', 'null']);
         $resolver->setAllowedTypes('base_url', ['string']);
+        $resolver->setAllowedTypes('api_key', ['string']);
     }
 }
